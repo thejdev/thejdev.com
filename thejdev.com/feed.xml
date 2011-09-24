@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ <id>urn:iweb:0AAF24A1-C235-4F97-B3C7-915DC16EB1BB</id>
+ <title>Page list Atom feed</title>
+ <updated>2011-09-24T17:36:14+11:00</updated>
+ <link rel="self" href="feed.xml"/>
+ <generator>iWeb</generator>
+ <author>
+  <name>iWeb</name>
+ </author>
+ <entry>
+  <id>urn:iweb:4E961FCF-D836-4745-951B-47F8100F283E</id>
+  <title>thejdev.com</title>
+  <title xmlns="urn:iweb:">thejdev.com</title>
+  <in-navbar xmlns="urn:iweb:">4E961FCF-D836-4745-951B-47F8100F283E</in-navbar>
+  <link rel="alternate" href="thejdev.com.html"/>
+  <updated>2011-09-24T17:36:14.001+11:00</updated>
+  <content>thejdev.com</content>
+ </entry>
+</feed>
