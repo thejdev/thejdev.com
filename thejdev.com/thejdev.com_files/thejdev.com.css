@@ -272,18 +272,6 @@
     background: transparent;
     opacity: 1.00;
 }
-a {
-    color: rgb(18, 132, 186);
-    text-decoration: none;
-}
-a:visited {
-    color: rgb(18, 132, 186);
-    text-decoration: none;
-}
-a:hover {
-    color: rgb(181, 181, 181);
-    text-decoration: none;
-}
 #widget1 a:visited {
     color: rgb(18, 132, 186);
     text-decoration: none;
