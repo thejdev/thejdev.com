@@ -45,6 +45,9 @@
     font-weight: 700;
     line-height: 15px;
 }
+.style_External_462_56 {
+    position: relative;
+}
 .paragraph_style_1 {
     color: rgb(81, 81, 81);
     font-family: 'Helvetica', 'Arial', sans-serif;
@@ -67,9 +70,6 @@
     text-indent: 0px;
     text-transform: none;
 }
-.style_External_462_56 {
-    position: relative;
-}
 .style_SkipStroke_2 {
     background: transparent;
     opacity: 1.00;
@@ -90,14 +90,18 @@
     background: transparent;
     opacity: 1.00;
 }
+.style_External_653_240 {
+    position: relative;
+}
 .style_SkipStroke_5 {
     background: transparent;
     opacity: 1.00;
 }
-.style_External_653_240 {
-    position: relative;
-}
 .style_SkipStroke_6 {
+    background: transparent;
+    opacity: 1.00;
+}
+.style_SkipStroke_7 {
     background: transparent;
     opacity: 1.00;
 }
@@ -265,12 +269,30 @@
 .graphic_textbox_layout_style_default {
     padding: 4px;
 }
+.graphic_textbox_layout_style_default_External_38_23 {
+    position: relative;
+}
+.graphic_textbox_layout_style_default_External_74_23 {
+    position: relative;
+}
 .graphic_textbox_layout_style_default_External_199_205 {
     position: relative;
 }
 .graphic_textbox_style_default_SkipStroke {
     background: transparent;
     opacity: 1.00;
+}
+a {
+    color: rgb(18, 132, 186);
+    text-decoration: none;
+}
+a:visited {
+    color: rgb(18, 132, 186);
+    text-decoration: none;
+}
+a:hover {
+    color: rgb(181, 181, 181);
+    text-decoration: none;
 }
 #widget1 a:visited {
     color: rgb(18, 132, 186);
