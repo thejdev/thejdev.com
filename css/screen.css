@@ -1,0 +1,88 @@
+@font-face {
+	font-family: 'HelveticaNeue-UltraLight';
+	src: url('../fonts/helveticaneueultralight-webfont.eot');
+	src: local('☺'), url('../fonts/helveticaneueultralight-webfont.woff') format('woff'), url('../fonts/helveticaneueultralight-webfont.ttf') format('truetype'), url('../fonts/helveticaneueultralight-webfont.svg#webfonteu8Gu1ai') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+	
+/* //-- yui-grids style overrides -- */
+#custom-doc { width:49.23em;*width:48.04em;min-width:640px; margin:auto; text-align:left; }
+body { font-family: 'Helvetica', 'Arial', sans-serif; font-size: 12px; color: rgb(18, 132, 186); padding-top:3px; }
+.yui-gf { margin-bottom: 2em; padding-bottom: 2em; border-bottom: 1px solid #ccc; }
+.yui-skin-sam {background: rgb(255, 255, 255) url(../images/Mod_background.jpg) repeat scroll top left; padding: 10px;}
+.yui-t7 {background: #ffffff; padding: 1em 2em 1em 2em; border: solid #666; border-width: 1px 1px 1px 1px;}
+
+/* //-- gap between header and navigation bar-- */
+.yui-g {padding-top: 5px;}
+
+/* //-- padding for top and indentation of text-- */
+.yui-gd {padding-left:10px; padding-top: 10px;}
+.yui-ge {padding-left:10px; padding-top: 10px;}
+
+
+
+/* //-- header, body, footer -- */
+
+#hd {
+margin-bottom: 0em; 
+padding-bottom: 0em; 
+border-bottom: 0px solid #ccc;
+background: transparent url(../images/Mod_menu_bar_1.jpg) repeat scroll top left;
+padding-left:10px;
+padding-bottom: 65px;
+padding-top: 20px;
+}
+
+#bd, #ft { margin-bottom: 2em; }
+
+/* //-- footer -- */
+#ft { padding: 1em 0 5em 0; font-size: 92%; border-top: 1px solid #ccc; text-align: center; }
+#ft p { margin-bottom: 0; text-align: center;   }
+
+/* --// override to force 1/8th width grids -- */
+.yui-gf .yui-u{width:80.2%;}
+.yui-gf div.first{width:12.3%;}	
+
+/* //-- core typography and style -- */
+#hd h1 { color: rgb(255, 255, 255); font-family: HelveticaNeue-UltraLight; font-size: 69px; text-transform: uppercase; letter-spacing: 0.04em;  line-height: 81px; }
+h2 { color: rgb(18, 132, 186); font-family: HelveticaNeue-UltraLight; font-size: 49px;}
+h3, h4 { font-size: 100%;  padding-bottom: 6px; padding-top: 3px;}
+h3, h4 { color: #333; }
+p { font-size: 100%; line-height: 18px; padding-right: 3em; }
+a { text-decoration:none; color: rgb(18, 132, 186); }	
+a:hover { text-decoration: none; color: rgb(181, 181, 181);}
+strong { font-weight: bold; }
+li { line-height: 24px; border-bottom: 1px solid #ccc; }
+p.enlarge { font-size: 144%; padding-right: 6.5em; line-height: 24px; }
+p.enlarge span { color: #000 }
+.contact-info { margin-top: 7px; }
+.last { border-bottom: 0 }
+
+a#pdf { display: block; float: left; background: #666; color: white; padding: 12px 24px 12px 24px; margin-bottom: 6px; text-decoration: none;  }
+a#pdf:hover { background: #222; }
+
+/* //-- used for view larger link on bottom of map -- */
+#viewlarger {  
+    visibility: hidden;  
+    color: rgb(81, 81, 81);
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-size: 12px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 15px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    opacity: 1.00;
+    padding-bottom: 10px;
+    padding-top: 0px;
+    text-align: right;
+    text-decoration: none;
+    text-indent: 0px;
+    text-transform: none;
+}

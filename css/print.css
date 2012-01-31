@@ -1,0 +1,8 @@
+.yui-skin-sam {background: #ffffff;}
+.yui-t7 {background: #ffffff; padding: 0em 0em 0em 0em; border: solid #666; border-width: 0px 0px 0px 0px;}
+
+/* --// override to force 1/8th width grids -- */
+.yui-gf .yui-u{width:75.2%;}
+.yui-gf div.first{width:17.3%;}
+
+a#pdf {display: none;}
