@@ -18,7 +18,7 @@ body { font-family: 'Helvetica', 'Arial', sans-serif; font-size: 12px; color: #3
 /* //-- gap between header and navigation bar-- */
 .yui-g {padding-top: 5px;}
 
-/* //-- padding for top and indentation of text-- */
+/* //-- padding for top and indentation of text--  */
 .yui-gd {padding-left:10px; padding-top: 10px;}
 .yui-ge {padding-left:10px; padding-top: 10px;}
 
