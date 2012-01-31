@@ -8,7 +8,9 @@
 	
 /* //-- yui-grids style overrides -- */
 #custom-doc { width:49.23em;*width:48.04em;min-width:640px; margin:auto; text-align:left; }
-body { font-family: 'Helvetica', 'Arial', sans-serif; font-size: 12px; color: rgb(18, 132, 186); padding-top:3px; }
+body { font-family: 'Helvetica', 'Arial', sans-serif; font-size: 12px; color: #333; padding-top:3px; }
+
+
 .yui-gf { margin-bottom: 2em; padding-bottom: 2em; border-bottom: 1px solid #ccc; }
 .yui-skin-sam {background: rgb(255, 255, 255) url(../images/Mod_background.jpg) repeat scroll top left; padding: 10px;}
 .yui-t7 {background: #ffffff; padding: 1em 2em 1em 2em; border: solid #666; border-width: 1px 1px 1px 1px;}
@@ -47,8 +49,8 @@ padding-top: 20px;
 /* //-- core typography and style -- */
 #hd h1 { color: rgb(255, 255, 255); font-family: HelveticaNeue-UltraLight; font-size: 69px; text-transform: uppercase; letter-spacing: 0.04em;  line-height: 81px; }
 h2 { color: rgb(18, 132, 186); font-family: HelveticaNeue-UltraLight; font-size: 49px;}
-h3, h4 { font-size: 100%;  padding-bottom: 6px; padding-top: 3px;}
-h3, h4 { color: #333; }
+h3, h4 {font-family: 'Helvetica', 'Arial', sans-serif; font-size: 100%; color: rgb(18, 132, 186); padding-bottom: 6px; padding-top: 3px;}
+h3 {font-size:125%;}
 p { font-size: 100%; line-height: 18px; padding-right: 3em; }
 a { text-decoration:none; color: rgb(18, 132, 186); }	
 a:hover { text-decoration: none; color: rgb(181, 181, 181);}
