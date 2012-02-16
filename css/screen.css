@@ -68,7 +68,7 @@ a#pdf:hover { background: #222; }
 
 /* //-- used for view larger link on bottom of map -- */
 #viewlarger {  
-    visibility: hidden;  
+    /*visibility: hidden;  */
     color: rgb(81, 81, 81);
     font-family: 'Helvetica', 'Arial', sans-serif;
     font-size: 12px;
