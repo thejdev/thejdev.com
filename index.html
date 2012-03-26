@@ -8,13 +8,15 @@
    <link rel="stylesheet" href="css/screen.css" type="text/css" />
    <link rel="stylesheet" href="css/print.css" type="text/css" media="print" />
    
-<!-- Lightbox stylesheet & scripts -->   
-   <link rel="stylesheet" href="lightbox/css/lightbox.css" type="text/css" media="screen" />
-   
-   	<script type="text/javascript" src="lightbox/js/prototype.js"></script>
-	<script type="text/javascript" src="lightbox/js/scriptaculous.js?load=effects,builder"></script>
-	<script type="text/javascript" src="lightbox/js/lightbox.js"></script>
-
+   <!-- jquery and colorbox script -->
+   	<link rel="stylesheet" href="scripts/colorbox/colorbox.css" type="text/css" />
+	<script src="scripts/jquery-1.7.1.min.js"></script>
+	<script src="scripts/colorbox/jquery.colorbox-min.js"></script>
+	<script>
+        jQuery(document).ready(function () {
+        jQuery('a.gallery').colorbox({ opacity:0.5 , rel:'gallery' });
+        });
+    </script>
 
 <!-- Google Analytics Tracking Script -->
 <script type="text/javascript">
@@ -71,17 +73,17 @@
 </div>
     <div class="yui-gb" style="padding-top: 50px;">
         <div class="yui-u first">
-        <a href="photos/home-1.jpg" title="At Marovo Lagoon for my first few water surveys" rel="lightbox[home]">
+        <a class='gallery' href="photos/home-1.jpg" title="At Marovo Lagoon for my first few water surveys">
         	<img src="photos/home-thumb-1.jpg" width="100%" alt="" />
         </a>
 	        </div>
         <div class="yui-u">
-        <a href="photos/home-2.jpg" title="A typical village community in the Solomon Islands" rel="lightbox[home]">
+        <a class='gallery' href="photos/home-2.jpg" title="A typical village community in the Solomon Islands">
         	<img src="photos/home-thumb-2.jpg" width="100%" alt="" />
         </a>
 	        </div>
         <div class="yui-u">        
-        <a href="photos/home-3.jpg" title="A standpipe supplying a house near Vangunu" rel="lightbox[home]">
+        <a class='gallery' href="photos/home-3.jpg" title="A standpipe supplying a house near Vangunu">
         	<img src="photos/home-thumb-3.jpg" width="100%" alt="" />
         </a>
 	        </div>
