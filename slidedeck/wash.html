@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href='http://fonts.googleapis.com/css?family=Lobster+Two|Oxygen:300' rel='stylesheet' type='text/css'>
+
+<title>Water and Sanitation in the Solomon Islands</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7; IE=EmulateIE9"> 
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+
+
+  <!--[if lt IE 9 ]><link rel="stylesheet" href="720_grid.css" type="text/css"><![endif]-->
+  <link rel="stylesheet" href="720_grid.css" type="text/css" media="screen and (min-width: 720px)">
+  <link rel="stylesheet" href="986_grid.css" type="text/css" media="screen and (min-width: 986px)">
+  <link rel="stylesheet" href="1236_grid.css" media="screen and (min-width: 1236px)" >
+
+  <link rel="stylesheet" href="screen.css" type="text/css" media="all">  
+  <link rel="stylesheet" href="../css/reset-fonts-grids.css" type="text/css" />
+
+
+
+
+
+  <script src="jquery-1.8.2.min.js"></script>
+  <script src="jquery.scrollTo-1.4.3.1.min.js"></script>
+  <script src="jquery.scrollorama.js"></script>
+  <script src="jquery.easing.1.3.js"></script>
+  <script src="jquery.scrolldeck.js"></script>
+
+
+
+</head>
+
+<div class="header">
+    <div class="grid">
+      <div class="row" style="padding-top:0px; text-align:right;">
+        <div class="slot-0-1-2">
+        <p id="nav-title">SolWash</p>
+        </div>
+        <div class="slot-8-9">
+          <a href="#title"  class="nav-button current" >Home</span></a>          
+          <a href="#about"  class="nav-button" >About</span></a> 
+          <a href="#projects"  class="nav-button" >Projects</span></a> 
+          <a href="#more"  class="nav-button" >More Info</span></a> 
+        </div>
+      </div>
+    </div>
+</div>
+
+<div class="grid">
+  <div class="row slide" id="title">
+    <div class="slot-0-1-2 img-cell">
+      <img src="images/P1000303.png" align="right"/>
+    </div>
+    <div class="slot-3-4-5">
+      <p id="title">Expanding Water and Sanitation</p>
+      <p id="subtitle">in the Solomon Islands</p>
+      <p>By Jaidev Vasudevan</p>      
+      <p>Adapted from an article published in Water Engineers Australia, July 2012</p>
+    </div>    
+  </div><!-- /.row -->
+
+  <div class="row slide" id="about">
+    <div class="slot-2-3-4-5" style="margin-left: 0px; padding-right:30px;">
+      <p>
+        <span class="dropcap">T</span>he Solomon Islands has experienced a tumultuous decade, with ethnic tensions escalating over a five-year period from 1998. With the support of the Regional Assistance Mission to Solomon Islands (RAMSI), hostilities ceased in 2003 and the country began the rebuilding process. Today, essential services such as education, health and infrastructure, which were disrupted by the tensions, are slowly regaining momentum. Numerous challenges lay ahead, particularly for infrastructure projects such as water and sanitation. However the outlook is optimistic.<br><br>
+        Solomon Islands is one of Australia’s closest neighbours and is comprised of nearly 900 picturesque islands. Eighty-five per cent of the almost 600,000 Solomon Island- ers live in rural areas, spread over 300 islands. The majority of the population engage in subsistence farming and fishing, and have little disposable income. Although many of these communities were geographically removed from the tensions, the effect was widespread disruption of government services.</p>
+
+    </div>
+    <div class="slot-0-1 img-cell">
+      <img src="images/P1000309.png" align="left" />
+    </div>
+  </div><!-- /.row -->
+
+
+
+  <div class="row slide img-row" id="projects">
+    <img src="images/P545.png" align="left"/>
+  </div><!-- /.row -->
+
+  <div class="row slide" id="more">
+    <div class="slot-2-3-4-5" style="margin-left: 0px; padding-right:30px;">
+      <p>
+        CREDITS
+
+    </div>
+    <div class="slot-0-1 img-cell">
+      <img src="images/P1000309.png" align="left" />
+    </div>
+  </div><!-- /.row -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div><!-- / .grid -->
+
+
+  <script>
+    $(document).ready(function() {
+      
+      var deck = new $.scrolldeck({
+        buttons: '.nav-button',
+        easing: 'easeInOutExpo'
+      });
+      
+      // add other animations using the scrolldeck.controller (see Scrollorama plugin)
+      console.log(deck.controller);
+      //deck.controller.animate('#credits',{ duration: 100, property:'opacity', end: 0 });
+      
+    });
+  </script>
+
+
+
+</body>
+</html>
