@@ -23,7 +23,7 @@
     background: rgb(255, 255, 255) url(Mod_background.jpg) repeat scroll top left;
     padding: 5px;
     padding: .5rem;
-    height: 50px;
+    height: 35px;
 }
 
 .img-cell {
@@ -35,18 +35,19 @@
     left: 0;
 }
 
+
 #nav-title {
     font-family: 'Lobster Two', cursive;
     font-size: 42px;
     text-align: left;
     text-shadow: 0 2px 1px #fff;
     font-variant: small-caps;
+    margin-top: -10px;
 }
 
 .nav-button {
     font-family: 'Oxygen', sans-serif;
-    padding: 10px;
-    padding: 1rem;
+    padding: 10px 10px 0px 10px;
     font-size: 18px;
     text-shadow: 0 2px 1px #fff;
     color: #333;
@@ -56,6 +57,8 @@
 .current, a.nav-button:hover {
     color: #fff;
     text-shadow: none;
+    background: #345677 repeat scroll top left;
+
 }
 
 #title {
@@ -69,6 +72,8 @@
     font-size: 28px;
     text-align: left;
     padding-bottom: 75px;
+    color: #345677; 
+
 }
 
 p { 
@@ -80,11 +85,22 @@ p {
 
 .dropcap { 
     float: left; 
-    color: #903; 
+    color: #345677; 
     font-size: 75px; 
     line-height: 60px; 
     padding-top: 4px; 
     padding-right: 8px; 
     padding-left: 3px; 
+    font-weight: bold;
 }
+
+blockquote {
+    padding-top: 20px;
+    overflow: hidden; /* clearfix alternative */
+    line-height: 150%;
+    font-family: 'Lobster Two', cursive;
+    font-size: 28px;
+    text-align: left;
+    padding-bottom: 75px;
+    color: #345677; 
 
